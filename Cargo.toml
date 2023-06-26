@@ -1,0 +1,9 @@
+[package]
+name = "zellij-echo"
+version = "0.1.0"
+authors = ["Thomas Linford <linford.t@gmail.comm>"]
+edition = "2021"
+
+[dependencies]
+console = "0.15.7"
+zellij-tile = "0.37.2"
