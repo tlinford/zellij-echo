@@ -1,4 +1,4 @@
-use std::collections::VecDeque;
+use std::collections::{BTreeMap, VecDeque};
 
 use console::{style, Term};
 use zellij_tile::prelude::*;
@@ -14,7 +14,7 @@ struct State {
 register_plugin!(State);
 
 impl ZellijPlugin for State {
-    fn load(&mut self) {
+    fn load(&mut self, _configuration: BTreeMap<String, String>) {
         subscribe(&[EventType::Key]);
         self.term = Some(Term::stdout());
     }
