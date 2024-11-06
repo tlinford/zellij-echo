@@ -1,6 +1,6 @@
 [package]
 name = "zellij-echo"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Thomas Linford <linford.t@gmail.comm>"]
 edition = "2021"
 
