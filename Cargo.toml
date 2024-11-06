@@ -5,5 +5,5 @@ authors = ["Thomas Linford <linford.t@gmail.comm>"]
 edition = "2021"
 
 [dependencies]
-console = "0.15.7"
+console = "0.15.8"
 zellij-tile = "0.40"
