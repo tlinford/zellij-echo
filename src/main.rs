@@ -7,7 +7,7 @@ const SIZE: usize = 10;
 
 #[derive(Default)]
 struct State {
-    keys: VecDeque<Key>,
+    keys: VecDeque<KeyWithModifier>,
     term: Option<Term>,
 }
 
