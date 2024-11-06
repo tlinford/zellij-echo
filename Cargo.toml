@@ -6,4 +6,4 @@ edition = "2021"
 
 [dependencies]
 console = "0.15.8"
-zellij-tile = "0.40"
+zellij-tile = "0.41"
